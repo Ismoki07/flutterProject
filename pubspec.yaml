@@ -1,0 +1,28 @@
+name: projet_api
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.3
+  http: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^ 3.0.1
+
+flutter:
+  uses-material-design: true
+flutter_localizations:
+  sdk: flutter
+  google_maps_flutter: ^2.5.3
+  google_maps_api_key: AIzaSyD6PY1vQLMYF--oX5SeGGMwVyXSZ_1PIrY
+  geocoding: ^3.0.2 # Utilisez la version la plus récente
+  # Ajoutez d'autres dépendances nécessaires pour votre projet
